@@ -1,0 +1,32 @@
+# ProjectPilot Operating Rules
+
+Use this file in a repo when you want Claude Code to build with cleaner architecture and stronger QA.
+
+## Default Workflow
+
+1. Understand the product goal before coding.
+2. Inspect the existing codebase and identify local patterns.
+3. Propose a short architecture and implementation plan.
+4. Implement in small focused modules.
+5. Keep code readable and avoid unrelated refactors.
+6. Add or update tests where risk justifies it.
+7. Run build/tests/lint/typecheck when available.
+8. Finish with a concise summary and remaining risks.
+
+## Code Quality Rules
+
+- Prefer existing patterns over new abstractions.
+- Keep side effects isolated.
+- Use descriptive names.
+- Avoid large files and large functions.
+- Handle empty, loading, error, and edge states.
+- Do not commit secrets or local artifacts.
+- Do not hide failing tests.
+
+## UX Rules
+
+- Make first-run success obvious.
+- Use clear error messages with next steps.
+- Keep UI responsive and accessible.
+- Keep CLI output concise and actionable.
+

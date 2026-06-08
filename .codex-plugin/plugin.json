@@ -1,0 +1,25 @@
+{
+  "name": "projectpilot",
+  "version": "0.1.0",
+  "description": "ProjectPilot turns rough product ideas into clean software plans, implementation prompts, and QA checklists for AI-assisted coding.",
+  "author": {
+    "name": "Mihir Sinh Chavda"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ProjectPilot",
+    "shortDescription": "Turn rough AI coding ideas into clean, shippable software.",
+    "longDescription": "ProjectPilot is an assistant workflow pack for Codex and Claude Code. It helps AI-assisted builders clarify ideas, design clean architecture, implement readable code, improve UX quality, verify before shipping, and generate high-signal Claude Code prompts.",
+    "developerName": "Mihir Sinh Chavda",
+    "category": "Productivity",
+    "capabilities": [
+      "Project planning",
+      "Architecture guidance",
+      "Code quality",
+      "UX review",
+      "QA checklists",
+      "Claude Code prompts"
+    ],
+    "defaultPrompt": "Use ProjectPilot to turn my rough idea into a clean build blueprint before coding."
+  }
+}
