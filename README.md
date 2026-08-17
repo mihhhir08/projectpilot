@@ -136,7 +136,21 @@ projectpilot/
 
 For Codex plugin development, place this repo in your local plugins directory or install it through your Codex plugin marketplace setup.
 
-For Claude Code, copy the relevant files from `claude-code/commands/` and optionally copy `claude-code/CLAUDE.md.template` into your project as `CLAUDE.md`.
+For Claude Code, run the following from the ProjectPilot repository root, replacing the placeholder with your project path:
+
+```sh
+PROJECT_DIR=/path/to/your/project
+mkdir -p "$PROJECT_DIR/.claude/commands"
+cp claude-code/commands/*.md "$PROJECT_DIR/.claude/commands/"
+```
+
+If the target project does not already have a `CLAUDE.md`, you can also copy the included template:
+
+```sh
+test -e "$PROJECT_DIR/CLAUDE.md" || cp claude-code/CLAUDE.md.template "$PROJECT_DIR/CLAUDE.md"
+```
+
+If `CLAUDE.md` already exists, merge the relevant guidance manually instead of overwriting it.
 
 ## Contributing
 
