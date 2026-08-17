@@ -1,14 +1,16 @@
 # ProjectPilot Example
 
-## Input
+## Before: Rough Input
 
 ```txt
 Build me a habit tracker with streaks and reminders.
 ```
 
-## ProjectPilot Output
+The request does not identify the target user, scope, data model, or release criteria.
 
-Generated:
+## After: ProjectPilot Blueprint
+
+ProjectPilot turns the same request into:
 
 - Product brief
 - Target user and core workflows
@@ -22,4 +24,3 @@ Generated:
 ## Why It Helps
 
 Instead of starting with a vague prompt, the builder starts with a clear product shape and quality checklist. The AI agent gets enough context to produce cleaner architecture and fewer random decisions.
-
