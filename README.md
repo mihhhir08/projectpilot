@@ -46,6 +46,21 @@ It turns that into:
 
 That means the coding agent starts with a real blueprint instead of a vague wish.
 
+## Quick Start
+
+Choose the workflow that matches the work in front of you:
+
+| Starting point | Use | Result |
+| --- | --- | --- |
+| Rough product idea | `idea-to-blueprint` | Product and engineering blueprint |
+| Existing feature request | `feature-to-spec` | Implementation-ready specification |
+| Approved plan | `clean-implementation` | Focused implementation with verification |
+| Working interface | `ux-quality-pass` | Prioritized UX review and polished copy |
+| Change ready to publish | `qa-before-ship` | Release-readiness report |
+| Handoff to Claude Code | `prompt-for-claude-code` | Copy-paste-ready implementation prompt |
+
+Start with one workflow, review its output, and move to the next only when the current stage is clear.
+
 ## What Is Included
 
 ### Codex Skills
